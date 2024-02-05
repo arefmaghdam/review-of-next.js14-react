@@ -7,6 +7,7 @@ const NextProvider: FC = () => {
       <Link href="/nextjs/next.js14-review">next.js 14 review</Link>
       <Link href="/nextjs/adding-fonts">adding fonts</Link>
       <Link href="/nextjs/data-fetching">data fetching</Link>
+      <Link href="/nextjs/caching">caching</Link>
     </div>
   );
 };
