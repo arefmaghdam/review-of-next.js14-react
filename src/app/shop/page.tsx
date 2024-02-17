@@ -1,3 +1,4 @@
+import { revalidateTag } from "next/cache";
 import { FC } from "react";
 
 interface Product {
@@ -9,13 +10,16 @@ interface Product {
 const Shop: FC = async () => {
   const response = await fetch("http://localhost:8000/products", {
     cache: "no-cache",
+    next: {
+      tags: ["products"],
+    },
   });
 
   const data: Product[] = await response.json();
 
   const addProduct = async (event: FormData) => {
     "use server";
-    const title = event.get("title");
+    let title = event.get("title");
     const price = event.get("price");
     const newProduct = { title, price };
     await fetch("http://localhost:8000/products", {
@@ -25,6 +29,9 @@ const Shop: FC = async () => {
         "Content-Type": "application/json",
       },
     });
+    
+    revalidateTag("products");
+    
   };
 
   return (
