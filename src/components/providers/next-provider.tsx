@@ -10,6 +10,7 @@ const NextProvider: FC = () => {
       <Link href="/nextjs/caching">caching</Link>
       <Link href="/nextjs/server-actions">server actions</Link>
       <Link href="/nextjs/json-server">JSON Server</Link>
+      <Link href="/nextjs/fetch-products">fetch products</Link>
     </div>
   );
 };
