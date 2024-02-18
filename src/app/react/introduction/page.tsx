@@ -2,7 +2,7 @@ import React, { FC } from "react";
 import Link from "next/link";
 import CodePreview from "../../../components/code-preview";
 
-const Caching: FC = () => {
+const Introduction: FC = () => {
   return (
     <div>
       <Link href="/">back</Link>
@@ -20,4 +20,4 @@ const Caching: FC = () => {
   );
 };
 
-export default Caching;
+export default Introduction;
