@@ -6,6 +6,7 @@ const ReactProvider: FC = () => {
     <div>
       <Link href="/react/introduction">introduction</Link>
       <Link href="/react/create-react-app">create react app</Link>
+      <Link href="/react/install">install</Link>
     </div>
   );
 };
