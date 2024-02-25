@@ -9,6 +9,7 @@ const ReactProvider: FC = () => {
       <Link href="/react/install">install</Link>
       <Link href="/react/getting-started">getting started</Link>
       <Link href="/react/components">components</Link>
+      <Link href="/react/separate-components">separate-components</Link>
     </div>
   );
 };
