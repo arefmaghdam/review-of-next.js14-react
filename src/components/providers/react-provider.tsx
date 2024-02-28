@@ -12,6 +12,7 @@ const ReactProvider: FC = () => {
       <Link href="/react/separate-components">separate-components</Link>
       <Link href="/react/reusable-components">reusable-components</Link>
       <Link href="/react/props">props</Link>
+      <Link href="/react/optimize-syntax-props">optimize-syntax-props</Link>
     </div>
   );
 };
