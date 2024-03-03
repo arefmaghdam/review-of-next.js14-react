@@ -15,6 +15,7 @@ const ReactProvider: FC = () => {
       <Link href="/react/optimize-syntax-props">optimize-syntax-props</Link>
       <Link href="/react/handling-events">handling-events</Link>
       <Link href="/react/lists-and-keys">lists-and-keys</Link>
+      <Link href="/react/state-and-hooks">state-and-hooks</Link>
     </div>
   );
 };
