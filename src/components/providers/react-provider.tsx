@@ -17,6 +17,7 @@ const ReactProvider: FC = () => {
       <Link href="/react/lists-and-keys">lists-and-keys</Link>
       <Link href="/react/state-and-hooks">state-and-hooks</Link>
       <Link href="/react/pass-data-and-events">pass-data-and-events</Link>
+      <Link href="/react/form-components">form-components</Link>
     </div>
   );
 };
