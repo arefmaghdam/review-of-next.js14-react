@@ -19,6 +19,7 @@ const ReactProvider: FC = () => {
       <Link href="/react/pass-data-and-events">pass-data-and-events</Link>
       <Link href="/react/form-components">form-components</Link>
       <Link href="/react/what-is-API">what-is-API</Link>
+      <Link href="/react/fetch-data-from-API">fetch-data-from-API</Link>
     </div>
   );
 };
