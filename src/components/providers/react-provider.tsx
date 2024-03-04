@@ -21,6 +21,7 @@ const ReactProvider: FC = () => {
       <Link href="/react/what-is-API">what-is-API</Link>
       <Link href="/react/fetch-data-from-API">fetch-data-from-API</Link>
       <Link href="/react/delete-request">delete-request</Link>
+      <Link href="/react/post-request">post-request</Link>
     </div>
   );
 };
